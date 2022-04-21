@@ -1,10 +1,12 @@
-<div class="height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
-  <div class="d-flex flex-justify-between flex-items-start mb-1">
-    <h1 class="f4 lh-condensed mb-1">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<div
+  class="height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}{% endif %} bg-white rounded-2 p-4">
+  <!-- border border-gray-light -->
+  <div class="d-flex flex-justify-between flex-items-start mb-2">
+      <p class="f3 text-gray text-left mb-0 mt-1">
+      I am a undergradute majoring in Data Science at <a href="https://hkust.edu.hk">Hong Kong University of Science and Technology, Hong Kong.</a>.<br>
+      <br>My interests are on Natural Language Processing and Computer Vision.</br>
+      <br><b>Feel free to take a look at my Github repos!</b></br>
+      </p>
   </div>
   <div class="text-gray mb-2 ws-normal">{{ post.date | date: "%b %d, %Y"}}</div>
 </div>
